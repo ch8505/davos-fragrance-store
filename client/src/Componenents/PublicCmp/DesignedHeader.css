@@ -1,0 +1,106 @@
+
+.iconMenu {
+    background-color: #607268;
+    color: #ffffff;
+    font-size: 30px;
+    border-radius: 12px 12px 12px 12px;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    margin: 3px;
+}
+
+.iconMenu:hover {
+    transform: scale(1.1);
+    transition: all .3s;
+    transition-duration: .3s;
+    transition-property: transform;
+}
+
+div.p-4.p-menubar.p-component {
+    background: #3A5244;
+    display: flex;
+    justify-content: space-between;
+    /* height: 140px; */
+    height: 17vh;
+    gap: 25px;
+    padding: 10%;
+}
+
+.p-menubar .p-menuitem * {
+    background-color: transparent;
+}
+
+a.p-menuitem-link {
+    color: #ffffff;
+}
+
+span.p-menuitem-text {
+    color: #ffffff;
+    font-family: "ברזיה", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.p-menubar {
+    padding: 0.5rem;
+    background: #f9fafb;
+    color: #4b5563;
+    border: transparent;
+    border-radius: 0px;
+}
+
+span.mx-2 {
+    /* color: #ffffff; */
+    font-family: "ברזיה", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px 0px;
+}
+
+img.mr-2 {
+    position: absolute;
+    left: 3vw;
+    top: 1vh;
+}
+
+.flex.align-items-center.p-menuitem-link.submenu-link {
+    color: black !important;
+} 
+
+.flex.align-items-center.p-menuitem-link.submenu-link:hover {
+    background-color: #ac9c79 !important;
+    color: #ffffff !important;
+}
+
+.flex.align-items-center.p-menuitem-link.submenu-link {
+    background-color: #ffffff !important;
+}
+
+.flex.align-items-center.p-menuitem-link.submenu-link span {
+    font-size: 16px !important;
+    padding: 0% !important;
+    font-weight: 600;
+}
+
+.flex.align-items-center.p-menuitem-link.topmenu-link.active {
+    border-bottom: 2px solid #ac9c79;
+    /* color: #B8BB87; */
+}
+
+.flex.align-items-center.p-menuitem-link.topmenu-link:hover {
+    border-bottom: 2px solid #ac9c79;
+    /* color: #B8BB87; */
+
+}
+.p-dataview-layout-options .p-component{
+    direction: ltr;
+}
+.p-dataview-layout-options .p-button:not(.p-button.p-highlight){
+    background-color: white;
+    color: #ac9c79;
+}
+/* .p-dataview-layout-options .p-button .p-highlight{
+
+} */

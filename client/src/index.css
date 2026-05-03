@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  direction: rtl;
+}
+
+.p-button {
+  background: #ac9c79;
+  border: 1px solid #ac9c79;
+}
+
+.p-button:focus {
+  box-shadow: 0 0 0 0.2rem #dac8a0;
+}
+
+.p-inputtext:enabled {
+  border-color: #ac9c79;
+}
+
+.p-inputtext:enabled:focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: 0 0 0 0.2rem #D1c09c;
+  border-color: #ac9c79;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+div.justify-content-end {
+  direction: ltr !important;
+  /* justify-content: flex-start !important; */
+}
+
+.p-button .p-button-icon-left {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+.p-datatable .p-datatable-tbody>tr.p-highlight {
+  background: #fdfbf6;
+  color: #ac9c79;
+}
+
+.p-datatable .p-datatable-tbody>tr.p-highlight {
+  background: #fdfbf6;
+  color: #ac9c79;
+}
+
+.p-button.p-button-outlined {
+  background-color: transparent;
+  color: #ac9c79;
+}
+
+.p-tag {
+  background: #ac9c79;
+  color: #ffffff;
+}
+
+.p-checkbox.p-highlight .p-checkbox-box {
+  border-color: #ac9c79;
+  background: #ac9c79;
+}
+
+.p-checkbox:not(.p-disabled):has(.p-checkbox-input:hover) .p-checkbox-box {
+  border-color: #ac9c79;
+}
+
+.p-dropdown:not(.p-disable):hover {
+  border-color: #ac9c79;
+}
+
+.p-menubar .p-menubar-root-list>.p-menuitem>.p-menuitem-content .p-menuitem-link .p-submenu-icon {
+  color: white;
+}
+
+.p-dialog-header {
+  padding: 0;
+  overflow: hidden;
+}
+
+.p-dialog .p-dialog-header-icons{
+  position: relative;
+    left: 3rem;
+    top: 1rem;
+}
+
+.p-tooltip-text {
+    padding: 0.2rem 0.4rem !important;  
+}
